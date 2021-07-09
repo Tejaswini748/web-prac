@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,13 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="fullname "></label>
+ 
     <h1> welcome to contactpage</h1>
     <h3>you can search using this form</h3>
     <h3><a href="../helloweb/blogs.html">Home</a></h3>
    <div id="Contact-form">
-       <form action="" method="get">
-           <input type="text" name="full name"placeholder="FUllname">
+       <form action="" method="POST">
+        <label for="fullname ">Name</label>
+        <br>
+           <input 
+           
+            type="text" name="full name"placeholder="Fullname">
+            <br>
+            <label for="email">my email</label>
+          <input   type="email" name="email"
+          placeholder="email@email.com">
+
+          <button type="submit">submit</button>
        </form>
    </div>
 </body>
